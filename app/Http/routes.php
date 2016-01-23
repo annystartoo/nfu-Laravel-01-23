@@ -11,10 +11,19 @@
 |
 */
 
+Route::get('/', function () {
+
+    return view('index');
+});
+
 Route::get('hello', function () {
 
-    return view('hello');
+    return view('hello.index');
 });
+
+
+
+
 
 /*
 |--------------------------------------------------------------------------
