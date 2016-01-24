@@ -2,7 +2,6 @@
 @section('title','About')
 @section('content')
 
-<body id="page-top">
 
     
 

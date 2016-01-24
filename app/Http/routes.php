@@ -17,25 +17,25 @@ Route::get('/', function () {
 });
 
 
-Route::get('about', function () {
+Route::get('about', ['as' => 'about' ,function () {
 
     return view('about');
-});
+}]);
 
-Route::get('services', function () {
+Route::get('services' ,['as' => 'services', function () {
 
     return view('services');
-});
+}]);
 
-Route::get('portfolio', function () {
+Route::get('portfolio' ,['as' => 'portfolio',  function () {
 
     return view('portfolio');
-});
+}]);
 
-Route::get('contact', function () {
+Route::get('contact' ,['as' => 'contact', function () {
 
     return view('contact');
-});
+}]);
 
 
 
